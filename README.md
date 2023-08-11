@@ -19,6 +19,23 @@ The dataset is preprocessed by removing irrelevant columns, handling missing val
 **Conclusion:*** In conclusion, the project successfully implemented K-means clustering, hierarchical clustering, and DBSCAN machine learning algorithms to perform customer segmentation. The project's results demonstrate the effectiveness of unsupervised machine learning algorithms in customer segmentation, which can help businesses improve their marketing strategies and increase their sales. Additionally, the project found that there were two clusters that could effectively group the customers based on their buying behavior.
 
 
-# **Problem Statement**
+# **Problem Statement: -**
 
 **In this project, the task is to identify major customer segments on a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.**
+
+# **Conclusion: -**
+
+EDA
+
+*   The United Kingdom accounted for the majority of orders at 88.95%, followed by Germany at 2.33%, France at 1.84%, Ireland at 1.84%, and Spain at 0.62%.
+*   The top stock codes, ranked by count values, are 85123A, 22423, 85099B, 47566, and 84879.
+*   The following customer IDs are identified as the top five: 14646.0, 14911.0, 12415.0, 17450.0, and 18102.0.
+*   The top 5 high demanded stock are 12197, 84077, 85099B, 84879 and 21212.
+The months with the most sales are November, October, December, September, and May.
+*   The highest sales are recorded on Thursday followed by Tuesday.
+*   The majority of customers made purchases between 10:00 A.M. and 2:00 P.M.
+*   The top 5 repeated customers are 14911, 12784, 1784, 14606 and 13081.
+
+**ML Model**
+
+*   Different clustering algorithms were applied to the dataset, considering Recency, Frequency, and Monetary (RFM), and 2 optimal clusters found.
